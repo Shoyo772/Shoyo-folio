@@ -1,0 +1,318 @@
+/* Body */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f9f9f9;
+    background-image: url('Vietnam-Dray-Nur-waterfall-beautiful-nature-landscape_3840x2160.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+  
+  /* Header */
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #666;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: color 0.2s ease-out;
+  }
+  
+  nav ul li a:hover {
+    color: #000;
+  }
+  
+  header h1 {
+    font-size: 32px;
+    margin-top: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  header p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+  
+  /* Portfolio */
+  #portfolio {
+    padding: 100px 0;
+  }
+  
+  #portfolio h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+  }
+  
+  #portfolio ul {
+    list-style: none;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+  }
+  
+  #portfolio li {
+    position: relative;
+    overflow: hidden;
+    margin: 20px;
+    width: calc(33.33% - 40px);
+    transition: transform 0.3s ease-out;
+  }
+  
+  #portfolio li:hover {
+    transform: scale(1.05);
+  }
+  
+  #portfolio li img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-out;
+  }
+  
+  #portfolio li .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+  }
+  
+  #portfolio li h3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 0;
+  }
+  
+  #portfolio li p {
+    display: none;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 50px 0;
+    text-align 
+        back: #f9f9f9;
+        padding: 40px 0;
+        font-size: 16px;
+        color: #666;
+      }
+      
+      footer h4 {
+        font-weight: bold;
+        margin-top: 0;
+      }
+      
+      footer ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      footer ul li {
+        margin-bottom: 10px;
+      }
+      
+      footer ul li a {
+        color: #666;
+      }
+      
+      footer ul.social-media {
+        margin-top: 10px;
+      }
+      
+      footer ul.social-media li {
+        display: inline-block;
+        margin-right: 10px;
+      }
+      
+      footer ul.social-media li a {
+        color: #666;
+        font-size: 18px;
+      }
+      
+      footer ul.social-media li a:hover {
+        color: #222;
+      }
+      
+      footer form input[type="email"] {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 3px;
+        margin-bottom: 10px;
+      }
+      
+      footer form button[type="submit"] {
+        background-color: #222;
+        color: #fff;
+        border: }
+
+        nav {
+          background-color: #fff;
+          box-shadow: 0 2px 4px rgba(0,0,0,.1);
+          position: relative;
+          z-index: 999;
+        }
+        
+        nav .logo {
+          float: left;
+          margin: 10px 30px;
+        }
+        
+        nav ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          float: right;
+        }
+        
+        nav ul li {
+          display: inline-block;
+        }
+        
+        nav ul li a {
+          display: block;
+          padding: 20px 30px;
+          color: #222;
+          text-decoration: none;
+          transition: all 0.3s ease;
+        }
+        
+        nav ul li a:hover {
+          background-color: #222;
+          color: #fff;
+        }
+        
+        nav ul li.current-menu-item a {
+          background-color: #ccc;
+          color: #222;
+        }
+        
+        nav .menu-toggle {
+          display: none;
+          position: absolute;
+          top: 10px;
+          right: 30px;
+          font-size: 24px;
+        }
+        
+        @media (max-width: 768px) {
+          nav .menu-toggle {
+            display: block;
+          }
+        
+          nav ul {
+            display: none;
+            position: absolute;
+            top: 50px;
+            left: 0;
+            width: 100%;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,.1);
+          }
+        
+          nav ul li {
+            display: block;
+            text-align: center;
+          }
+        
+          nav ul li a {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+          }
+        }
+
+        nav ul li.dropdown {
+          display: inline-block;
+        }
+        
+        nav .dropdown .dropbtn {
+          display: block;
+          padding: 20px 30px;
+          color: #222;
+          text-decoration: none;
+          transition: all 0.3s ease;
+        }
+        
+        nav .dropdown .dropbtn:hover {
+          background-color: #222;
+          color: #fff;
+        }
+        
+        nav .dropdown:hover .dropdown-content {
+          display: block;
+        }
+        
+        nav .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        
+        nav .dropdown-content a {
+          color: #222;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+        
+        nav .dropdown-content a:hover {
+          background-color: #222;
+          color: #fff;
+        }
+        
+        
